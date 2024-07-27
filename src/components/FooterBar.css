@@ -1,0 +1,45 @@
+/* src/components/FooterBar.css */
+
+.footer-container {
+    background-color: #948080; /* Fondo gris oscuro */
+    padding: 1rem 0;
+    color: #ffffff; /* Color del texto en blanco */
+  }
+  
+  .footer {
+    padding: 1rem 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .icon-link {
+    color: #0c0707; /* Color de los íconos en blanco */
+    font-size: 1.5rem; /* Tamaño de los íconos */
+    margin: 0 1rem;
+    transition: color 0.3s;
+  }
+  
+  .icon-link:hover {
+    color: #ff3860; /* Color al pasar el puntero sobre el ícono */
+     
+}
+  
+  p {
+    margin: 0.5rem 0;
+    color:#ffffff;
+    background-color: #948080;
+  }
+  
+  .code {
+    display: block;
+    margin-top: 1rem;
+    color: #ffffff; /* Color del texto del código en blanco */
+    background-color: #3a3a3a; /* Fondo del código en gris oscuro */
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,8 @@
+.navbar-item.navbar-hover {
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item.navbar-hover:hover {
+    color: red;
+  }
+  

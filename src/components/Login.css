@@ -1,0 +1,37 @@
+/* src/components/Login.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #2a2a2a; /* Fondo gris oscuro */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.box {
+  background-color: transparent; /* Hacemos el fondo de la caja transparente */
+  padding: 2rem;
+}
+
+.input {
+  background-color: #3a3a3a; /* Fondo de los inputs en gris oscuro */
+  border: none;
+  color: white;
+}
+
+.input::placeholder {
+  color: #cccccc; /* Color del placeholder en gris claro */
+}
+
+.label {
+  color: #ffffff; /* Color de las etiquetas en blanco */
+}
+
+.button.is-primary {
+  background-color: #ff3860; /* Color del botón de login */
+  border: none;
+}
+
+.button.is-primary:hover {
+  background-color: #ff2b55; /* Color del botón de login al hacer hover */
+}
